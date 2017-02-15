@@ -1,0 +1,42 @@
+{
+  "name": "micro-myip",
+  "description": "Microservice for routing requests",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=7.5.0"
+  },
+  "scripts": {
+    "start": "micro"
+  },
+  "keywords": [
+    "microservice",
+    "micro",
+    "echo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zrrrzzt/micro-myip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/micro-myip/issues"
+  },
+  "now": {
+    "alias": [
+      "myip.micro.allthethings.win"
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "dependencies": {
+    "micro": "7.0.6"
+  }
+}
