@@ -37,6 +37,6 @@
     }
   },
   "dependencies": {
-    "micro": "7.0.6"
+    "micro": "7.3.3"
   }
 }
