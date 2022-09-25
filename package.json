@@ -37,6 +37,6 @@
     }
   },
   "dependencies": {
-    "micro": "9.3.3"
+    "micro": "9.4.1"
   }
 }
